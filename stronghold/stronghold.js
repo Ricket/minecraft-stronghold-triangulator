@@ -221,7 +221,7 @@ function Map(elt, cw, ch)
 
 window.onload = function(){
 
-    map = new Map(document.getElementById('paper'), 800, 600);
+    map = new Map(document.getElementById('paper'), 1200, 1200);
 
     map.replot();
 }
