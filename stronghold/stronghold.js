@@ -39,7 +39,7 @@ function Map(elt, cw, ch)
     this.length = 1200; // how long are the lines we draw?
     paper;
     this.screen_origin = [ cw/2, ch/2 ]
-    this.scale = Math.min(cw, ch) / 2500
+    this.scale = Math.min(cw, ch) / 5000
     this.world_min = [ -this.screen_origin[0] / this.scale , -this.screen_origin[1] / this.scale ]
     this.world_max = [ (this.paper_width-this.screen_origin[0]) / this.scale , (this.paper_height-this.screen_origin[1]) / this.scale ]
 
